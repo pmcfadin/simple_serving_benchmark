@@ -1,8 +1,15 @@
-import uvicorn
+async def app(scope, receive, send):
+    assert scope['type'] == 'http'
 
-def app(env, start_response):
-    start_response('200 OK', [('Content-Type', 'text/html')])
-    return [b'<html><body>This is a web page.</body></html>']
+    await send({
+        'type': 'http.response.start',
+        'status': 200,
+        'headers': [
+            [b'content-type', b'text/plain'],
+        ],
+    })
+    await send({
+        'type': 'http.response.body',
+        'body': b'This is a web page.',
+    })
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8080)
