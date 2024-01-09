@@ -1,0 +1,11 @@
+filename,base_url,total_requests,failed_requests,requests_per_second,dns_median,tcp_connect_mean,tcp_connect_median,tcp_connect_95th_percentile,server_processing_mean,server_processing_median,server_processing_95th_percentile,content_transfer_mean,content_transfer_median,content_transfer_95th_percentile
+output_python_test_http_server,http://192.168.200.122:8080/,1000000,0,426.69,0,1.2768262768262768,1,2,0.14459,0,1,0.012819,0,0
+output_npx_typescript_test_http_server_test_http_server,http://127.0.0.1:8080/,1000000,0,66225.35,0,0.6,1,1,0.008865,0,0,0.000258,0,0
+output_zig_http_server,http://127.0.0.1:8080/,1000000,0,133615.86,0,0.051094890510948905,0,0,0.202724,0,1,0.002497,0,0
+output_java_test_http_server,http://127.0.0.1:8080/,1000000,0,69903.8,0,0,0,0,0.00806,0,0,0.000251,0,0
+output_python_sanic_test_http_server,http://127.0.0.1:8080/,1000000,0,51579.49,0,0.8,1,1,0.002282,0,0,0.000122,0,0
+output_kotlin_test_http_server,http://127.0.0.1:8080/,1000000,0,67817.44,0,0.03333333333333333,0,0,0.006081,0,0,8.2e-05,0,0
+output_python_fastapi_uvicorn_test_http_server,http://127.0.0.1:8080/,1000000,0,9916.56,0,0.5333333333333333,1,1,2.322676,2,4,0.004547,0,0
+output_python_uvicorn_test_http_server,http://127.0.0.1:8000/,1000000,0,34422.75,0,0.8,1,1,0.070185,0,1,0.000122,0,0
+output_rust_test_http_server,http://127.0.0.1:8080/,1000000,0,122369.19,0,0,0,0,0.001123,0,0,0.000225,0,0
+output_bun_typescript_test_http_server_test_http_server,http://127.0.0.1:8080/,1000000,0,74689.75,0,0.03333333333333333,0,0,0.027371,0,0,0.001675,0,0
