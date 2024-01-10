@@ -25,4 +25,4 @@ Macbook M1 Pro. 32G. Sonoma 14.2
 
 ## Results
 
-![Alt text](image-1.png)
+![Alt text](image.png)
