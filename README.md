@@ -13,16 +13,16 @@ But wait! A lot of effort has gone into addressing these issues, and there are c
 These tests are *in no way* scientific, but they are a good demonstration. In a reasonable same-same type setup, how do different languages fare? I decided to try a variety of different languages, all for different reasons. Some are workhorses in the server market (Java, Typescript). Some are shiny and new (Rust) Some are **really** shiny and new (Zip) For Python, I tried out a few different libraries/methodologies to improve the serving ability. Check it all out below. 
 
 
-##Test setup 
+## Test setup 
 
 **Machine specs**
 Macbook M1 Pro. 32G. Sonoma 14.2
 
-**Test tool** 
+**Test tool**
 [Cassowary](https://github.com/rogerwelin/cassowary)
 30 concurrent users
 1 million requests
 
-##Results
+## Results
 
 ![Alt text](image-1.png)
