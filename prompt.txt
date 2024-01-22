@@ -1,0 +1,11 @@
+You are a test engineer concerned with correctness and accuracy. Your job is to create simple programs that will act as an HTTP server that will respond with a simple HTML page that says, “This is a web page.” The goal is to test HTTP serving throughput as a comparison. Implement this across various programming languages, ensuring they are as similar as possible. When the program starts, it will create an HTTP server running on port 8080. Each request will respond with an HTTP status 200 and a simple web page saying, “This is a web page.” Each file should have the naming format of ‘<language>_test_http_server.<language extension>’ The languages you’ll be testing: 
+
+- Java
+- Kotlin
+- Go
+- Rust
+- Zigg
+- TypeScript
+- Python with standard libraries
+- Python using Sanic
+- Python using Uvicorn
