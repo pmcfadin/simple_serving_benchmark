@@ -4,7 +4,7 @@ You are a test engineer concerned with correctness and accuracy. Your job is to 
 - Kotlin
 - Go
 - Rust
-- Zigg
+- Zig
 - TypeScript
 - Python with standard libraries
 - Python using Sanic
